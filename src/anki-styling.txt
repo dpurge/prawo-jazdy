@@ -1,0 +1,42 @@
+.card {
+ font-family: arial;
+ font-size: 20px;
+ text-align: center;
+ color: black;
+ background-color: white;
+}
+
+div.pytanie {
+ color: red;
+ font-size: larger;
+}
+
+div.media {
+}
+
+div.odpowiedzi {
+  margin-right: 15em;
+}
+
+span.wariant {
+  font-weight: bold;
+}
+
+div.odpowiedz {
+  color: red;
+  font-size: larger;
+}
+
+p.informacja {
+ color: gray;
+ font-size: smaller;
+}
+
+p.komentarz {
+  color: black;
+}
+
+p.zrodlo {
+  color: gray;
+ font-size: smaller;
+}

@@ -1,0 +1,9 @@
+{{odpowiedz}}
+
+<hr />
+
+<p class="informacja">Blok: {{blok}}, punkty: <em>{{punkty}}</em></p>
+
+<p class="komentarz">{{komentarz}}</p>
+
+<p class="zrodlo">{{zrodlo}}</p>
