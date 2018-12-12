@@ -13,6 +13,13 @@ Skrypt do importowania bazy pytań egzaminacyjnych na prawo jazdy publikowanych 
 - [Multimedia cz. 4](https://www.gov.pl/documents/905843/1047987/cz%C4%99%C5%9B%C4%87_4.zip)
 - [Multimedia cz. 5](https://www.gov.pl/documents/905843/1047987/cz%C4%99%C5%9B%C4%87_5.zip)
 
+## Release
+
+Przygotowany plik do zaimportowania do Anki z pytaniami dla kategorii A
+z października 2018 roku jest dostępny na stronie z releasami:
+
+[Kategoria A, październik 2018](https://github.com/dpurge/prawo-jazdy/releases/tag/v2018.10)
+
 ## Przygotowanie plików do importu
 
 - Należy ściągnąć wszystkie potrzebne pliki ze strony Ministerstwa Infrastruktury
