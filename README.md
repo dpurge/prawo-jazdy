@@ -1,6 +1,6 @@
 # prawo-jazdy
 
-Skrypt do importowania bazy pytań egzaminacyjnych na prawo jazdy publikowanych przez Ministerstwo Infrastruktury do programu Anki.
+Skrypt do importowania bazy pytań egzaminacyjnych na prawo jazdy publikowanych przez Ministerstwo Infrastruktury do programu [Anki](https://apps.ankiweb.net/).
 
 ## Pliki wejściowe
 
@@ -42,3 +42,41 @@ optional arguments:
 
 W katalogu wyjściowym powstanie plik `prawo-jazdy-pytania.txt`
 oraz podkatalog `media` z filmikami i obrazkami do pytań.
+
+## Import do Anki
+
+[Anki ](https://apps.ankiweb.net/) należy przygotować.
+
+W menu `Tools, Note types` tworzymy kopię typu `Basic`
+i edytujemy pola (`Tools, Note types, Fields...`) do takiej postaci:
+
+![fields](https://github.com/dpurge/prawo-jazdy/raw/master/img/anki-fields.png "Screenshot z listą pól w nowym typie notki")
+
+Następnie w menu `Tools, Note types, Cards...` dla nowo utworzonego
+typu formatujemy karty przez wklejenie w odpowiednie pola 
+zawartości plików `anki-styling.txt`, `anki-front-template.txt`
+i `anki-back-template.txt`.
+
+![cards](https://github.com/dpurge/prawo-jazdy/raw/master/img/anki-cards.png "Screenshot z edytorem stylów")
+
+Pytania wyglądają mniej więcej tak:
+
+![question](https://github.com/dpurge/prawo-jazdy/raw/master/img/anki-question.png "Screenshot z pytaniem")
+
+Filmiki są odtwarzane w MPlayerze dostarczanym z Anki. Filmik można
+odtworzyć ponownie nasiskając klawisz `R` (od: replay).
+
+Odpowiedzi wyglądają tak:
+
+![answer](https://github.com/dpurge/prawo-jazdy/raw/master/img/anki-answer.png "Screenshot z odpowiedzią")
+
+## Inne uwagi
+
+Wrzucam to na GitHub-a, bo może się to komuś przyda.
+
+Z wyłączeniem celów komercyjnych, możesz tego skryptu używać i go dowolnie modyfikować oraz publikować zmodyfikowane kopie skryptu.
+
+Pull requesty przyjmę z wdzięcznością.
+
+Jeśli masz kłopoty z odpaleniem skryptu, poproś o pomoc kogoś ze znajomych - dla mnie to jednorazowy skrypcik, nie planuję go ulepszać. Nie starałem się też uczynić go pięknym ani obsłużyć wszelkich możliwych błędów - mi są potrzebne tylko pytania na kategorię A.
+
